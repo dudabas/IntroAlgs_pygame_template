@@ -22,11 +22,6 @@ Exemplo:
 ## 2. Integrantes do grupo
 
 Liste os integrantes do grupo.
-
-- Nome 1:
-- Nome 2:
-- Nome 3:
-- Nome 4:
 - Nome 1: Kennedy Pereira Mendes
 - Nome 2: Maria Eduarda Barreto da Silva
 
@@ -51,15 +46,12 @@ Exemplos:
 
 Tipo escolhido pelo grupo:
 
-> Escreva aqui.
 > Nave desviando de meteoros.
 
 ## 4. Descrição geral do jogo
 
 
 Descrição:
-
-> Escreva aqui.
 
 > O jogo consiste em uma nave espacial que se desloca em um cenário horizontal. Durante a partida, meteoritos surgem continuamente do lado direito da tela e se movem em direção ao lado esquerdo, criando obstáculos que o jogador deve evitar. A nave pode ser controlada pelo jogador para realizar os desvios necessários, tornando a jogabilidade dinâmica e progressivamente desafiadora.
 ## 5. Objetivo do jogador
@@ -78,7 +70,6 @@ Exemplos:
 
 Objetivo:
 
-> Escreva aqui.
 > O objetivo do jogador é permanecer em jogo pelo maior tempo possível sem colidir com os meteoritos. A pontuação é calculada com base no tempo de sobrevivência, de modo que quanto mais tempo a nave permanecer intacta, maior será a pontuação obtida. Quando ocorre uma colisão, a partida é encerrada e a pontuação final é comparada ao recorde armazenado. Caso a nova pontuação seja superior à anterior, ela passa a ser registrada como o novo recorde, incentivando o jogador a superar sua própria marca em partidas futuras.
 
 ## 6. Regras principais
@@ -95,11 +86,6 @@ Exemplo:
 
 Regras do grupo:
 
-- Regra 1:
-- Regra 2:
-- Regra 3:
-- Regra 4:
-- Regra 5:
 - Regra 1: O jogador controla uma nave espacial utilizando teclado
 - Regra 2: A nave pode se mover apenas para cima ou para baixo
 - Regra 3: Meteoros aparecem do lado direito e se movem para o lado esquerdo
@@ -121,7 +107,6 @@ Exemplos:
 
 Condição de vitória:
 
-> Escreva aqui.
 > Toda vez que o jogador alcançar o próprio recorde.
 
 ## 8. Condição de derrota ou encerramento
@@ -138,7 +123,6 @@ Exemplos:
 
 Condição de derrota ou encerramento:
 
-> Escreva aqui.
 > A nave colidir com algum meteoro.
 
 ## 9. Elementos previstos no jogo
@@ -152,8 +136,6 @@ Exemplo:
 > Um personagem controlado pelas setas do teclado.
 
 Descrição:
-
-> Escreva aqui.
 > Uma nave controlada pelas setas do teclado.
 
 ## Obstáculos, inimigos ou desafios
@@ -164,7 +146,6 @@ Exemplo:
 
 Descrição:
 
-> Escreva aqui.
 > Meteoros saindo do lado direito da tela e indo em diração ao esquerdo.
 
 ## Itens, alvos ou objetos de interação
@@ -175,7 +156,6 @@ Exemplo:
 
 Descrição:
 
-> Escreva aqui.
 > Tempo de sobrevivência que será convertido em pontuação.
 
 ## Pontuação, vidas, tempo ou progresso
@@ -186,7 +166,6 @@ Exemplo:
 
 Descrição:
 
-> Escreva aqui.
 > A cada segundo que o jogador se mantém vivo, ele ganhará 1 ponto no somatório da pontuação na partida.
 
 ## 10. Controles previstos
@@ -194,9 +173,6 @@ Descrição:
 
 Controles do grupo:
 
-- Tecla/comando:
-- Tecla/comando:
-- Tecla/comando:
 - Seta para cima: mover a nave para cima
 - Seta para baixo: mover a nave para baixo
 - Enter: iniciar ou reiniciar o jogo
@@ -216,7 +192,6 @@ Exemplo:
 
 Organização planejada:
 
-> Escreva aqui.
 > - main.py: inicia o jogo e executa o loop principal;
 - src/player.py: contém a classe e as funções relacionadas à nave do jogador;
 - src/meteor.py: contém a criação e movimentação dos meteoros;
@@ -239,7 +214,6 @@ Exemplo:
 
 Recursos previstos:
 
-> Escreva aqui.
 
 Caso não pretenda utilizar recursos externos, escreva:
 
@@ -266,9 +240,6 @@ Exemplos:
 
 Dificuldades previstas:
 
-- Dificuldade 1:
-- Dificuldade 2:
-- Dificuldade 3:
 - Dificuldade 1: implementação de detecção de colisão entre a nave e os meteoros;
 - Dificuldade 2: armazenamento e atualização do recorde do jogador;
 
@@ -284,7 +255,6 @@ Exemplo:
 
 Escopo mínimo:
 
-> Escreva aqui.
 > A versão mínima do jogo terá uma nave controlada pelo teclado, movimentação vertical, meteoros atravessando a tela, sistema de pontuação baseado no tempo de sobrevivência, registro do maior recorde e tela de fim de jogo quando ocorrer uma colisão.
 
 ## 15. Possíveis melhorias, caso haja tempo
@@ -305,9 +275,6 @@ Exemplos:
 
 Melhorias possíveis:
 
-- Melhoria 1:
-- Melhoria 2:
-- Melhoria 3:
 - Melhoria 1: Tela inicial e menu de reinício
 - Melhoria 2: Efeitos sonoros e música de fundo
 - Melhoria 3: Diferentes tipos de meteoros com velocidade variadas
