@@ -1,4 +1,4 @@
-# Nome do Jogo
+# AstroRun
 
 Projeto final da disciplina de Introdução a Algoritmos/Programação, desenvolvido com Python e Pygame.
 
@@ -6,10 +6,8 @@ Este repositório é um template para os grupos da disciplina. A proposta é com
 
 ## Integrantes do grupo
 
-- Nome do integrante 1
-- Nome do integrante 2
-- Nome do integrante 3
-- Nome do integrante 4
+- Kennedy Pereira Mendes Lima
+- Maria Eduarda Barreto da Silva
 
 ## Estrutura do projeto
 
