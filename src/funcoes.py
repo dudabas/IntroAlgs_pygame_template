@@ -1,27 +1,14 @@
-def calcular_pontos(pontos_atual, pontos_ganhos):
-    """Soma os pontos ganhos à pontuação atual."""
-    return pontos_atual + pontos_ganhos
+import pygame
 
+def desenhar_nave(tela, nave):
+    pygame.draw.rect(tela, (0, 255, 0), nave.rect)
 
-def tomar_dano(vida_atual, dano):
-    """Reduz a vida atual com base no dano recebido."""
-    return vida_atual - dano
+def desenhar_meteoro(tela, meteoro):
+    pygame.draw.rect(tela, (255, 0, 0), meteoro.rect)
 
+def colisao(nave, meteoros):
+    for meteoro in meteoros:
+        if nave.rect.colliderect(meteoro.rect):
+            return True
 
-def jogador_perdeu(vidas):
-    """Indica se o jogador ficou sem vidas."""
-    return vidas <= 0
-
-
-def limitar_valor(valor, minimo, maximo):
-    """Mantém um valor dentro do intervalo [minimo, maximo]."""
-    if valor < minimo:
-        return minimo
-    if valor > maximo:
-        return maximo
-    return valor
-
-
-def verificar_colisao(retangulo_1, retangulo_2):
-    """Verifica sobreposição entre dois retângulos do Pygame."""
-    return retangulo_1.colliderect(retangulo_2)
+    return False
